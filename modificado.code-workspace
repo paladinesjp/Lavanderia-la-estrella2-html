@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\lavanderia2"
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"activityBar.background": "#291583",
+			"titleBar.activeBackground": "#3A1EB8",
+			"titleBar.activeForeground": "#FDFCFF"
+		}
+	}
+}

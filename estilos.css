@@ -1,0 +1,44 @@
+.nav-wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: inherit;
+}
+
+.nav-wrapper img {
+    width: 250px;
+    height: 100px;
+    background-color: #085394;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+
+.titulo {
+    text-align: center;
+}
+
+.titulo2 {
+    text-align: center;
+}
+
+.titulo3 {
+    text-align: center;
+}
+
+.card {
+    width: auto;
+    height: auto;
+}
+
+.button {
+    text-align: center;
+}
+

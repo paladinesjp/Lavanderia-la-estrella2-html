@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavanderia La Estrella</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href = "https://fonts.googleapis.com/css2? family = Domine & family = Syne: wght @ 600 & display = swap" rel = "stylesheet">
+    
+</head>
+<style>
+     
+     .Monitoreo{
+        padding-top: 40%;
+        font-family: 'Domine', serif;
+        font-family: 'Syne', sans-serif;
+     }
+
+   .row { 
+       margin-left: 9%;
+       margin-right: 9%;
+       padding-right: 2%;
+       padding-left: 3%;
+       margin-top: 3%;
+       margin-bottom: 5%;
+       
+   }
+
+    .row .col-4 img{
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: ease 0.9s; 
+    }
+
+    .row  img:hover{
+        transform: translateY(-8px);
+        transition: ease 0.7s;
+        border-radius: 15%;
+    
+    }
+
+     #titulo{
+         padding-top:5%;
+         text-align: center;
+         font-family: 'Domine', serif;
+         font-family: 'Syne', sans-serif;
+         font-weight: 100;
+        
+     }
+
+     .text-center{
+        font-size: 30px;
+        color:  black;
+        margin-top: 100px;
+        font-weight: 100;
+        font-family: 'Domine', serif;
+        font-family: 'Syne', sans-serif;
+        
+     }
+
+     img{
+         height: 200px;
+         width: 300px;
+         margin-left: 10px;
+         padding-right: 20px;
+         padding-bottom: 3%;
+         padding-top: 5%;
+         
+     }
+     .boton{
+         
+         border: 1px solid;
+         margin-left: 3%;
+         margin-bottom: 7%;
+         margin-top: 7%;
+         padding-right:  -10%;
+         padding-bottom: 5%;
+         padding-top: 5%;
+         font-family: 'Domine', serif;
+        font-family: 'Syne', sans-serif;
+     }
+       .boton button{
+           border: solid  .3px ;
+           margin-left: 5%;
+           color: rgba(0, 0, 0, 0.534);
+       }
+    
+      h6{
+          margin-left: 5%;
+          font-weight: 15px;
+          color: black;
+          font-family: 'Domine', serif;
+          font-family: 'Syne', sans-serif;
+      }
+       
+      
+    
+</style>
+
+<body>
+        <h3 class="text-center">Prendas en Proceso de Entrega</h3>
+    <div class="row">
+        
+        <div class="col-4 " >
+            <h4 id="titulo" >Prendas Terminada </h4>
+            <img src="./imagenes/terminada2.jpg" >
+            <div class="boton">
+                <h6>Tipo de Prenda</h6> 
+            <button>Camisa</button>
+            <div>
+                <h6>Ubicacion</h6> 
+            <button>En Lavado</button>
+            
+            <h6>Datos del Cliente</h6> 
+            <div>
+            <button>Nombre</button>
+             <br>
+             <br>
+            <div>
+                <button>Cedula</button>
+             <br> <br>
+            <div>
+
+                <button>Fecha de Solicitud de Servicio</button>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            
+        </div>
+        <div class="col-4">
+            
+        
+        <h4 id="titulo">Prendas Enviadas</h4>
+            <img src="./imagenes/domicilios.jpg" >  
+            <br><br>
+            <div class="input-group">     
+                <input type="text" class="form-control" placeholder="Buscar" aria-label="Input group example" aria-describedby="btnGroupAddon">
+              </div>
+              <br><br>
+              <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Enviar</a>
+              <div  class="Monitoreo">
+                <a href="index2.html">
+                <button type="button" class="btn btn-secondary ">Monitoreo de Procesos</button>
+            </a>
+            </div>
+            
+        </div>
+        <div class="col-4"> 
+            <h4 id="titulo" >Prendas Entregadas</h4>
+            <img src="./imagenes/Prendas Entregadas.jfif" >
+
+            </div>
+            </div>
+    
+</body>
+</html>
